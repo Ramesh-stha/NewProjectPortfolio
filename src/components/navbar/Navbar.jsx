@@ -2,13 +2,13 @@ import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
-import { FaGit, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const menuItems = [
   { id: "about", label: "About" },
   { id: "skills", label: "Skill" },
-  { id: "work", label: "Work" },
   { id: "experience", label: "Experience" },
+  {id:"work", label:"Work"},
   { id: "Education", label: "Education" },
 ];
 const Navbar = () => {
@@ -31,6 +31,11 @@ const Navbar = () => {
   const handleItemClick = (sectionId) => {
     setActiveSelection(sectionId);
     setIsOpen(false);
+
+    const section = document.getElementById(sectionId);
+    if(section){
+      section.scrollIntoView({behavior:"smooth"});
+    }
   };
 
   return (
