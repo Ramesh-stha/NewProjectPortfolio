@@ -18,7 +18,7 @@ import javascriptlogo from "./assets/TechLogo/javascript.png";
 import gitlogo from "./assets/TechLogo/git.png";
 import githublogo from "./assets/TechLogo/github.png";
 import vscodelogo from "./assets/TechLogo/vscode.png";
-import companylogo from "./assets/TechLogo/company.jpeg"
+import companylogo from "./assets/TechLogo/company.jpeg";
 import companylogo1 from "./assets/TechLogo/innovatech.png";
 import schoollogo from "./assets/TechLogo/hariyali.png";
 import sukunalogo from "./assets/TechLogo/sukuna.png";
@@ -47,37 +47,37 @@ export const skillInfo = [
       { name: "JavaScript", logo: jslogo },
     ],
   },
-   {
-    title: 'Languages',
+  {
+    title: "Languages",
     skills: [
-      { name: 'C', logo: clogo },
-      { name: 'C++', logo: cpplogo },
-      { name: 'Java', logo: javalogo },
-      { name: 'Python', logo: pythonlogo },
-      { name: 'C-Sharp', logo: csharplogo },
-      { name: 'JavaScript', logo: javascriptlogo },
-      { name: 'SQL', logo: mysqlogo },
+      { name: "C", logo: clogo },
+      { name: "C++", logo: cpplogo },
+      { name: "Java", logo: javalogo },
+      { name: "Python", logo: pythonlogo },
+      { name: "C-Sharp", logo: csharplogo },
+      { name: "JavaScript", logo: javascriptlogo },
+      { name: "SQL", logo: mysqlogo },
     ],
   },
   {
-    title: 'Tools',
+    title: "Tools",
     skills: [
-      { name: 'Git', logo: gitlogo },
-      { name: 'GitHub', logo: githublogo },
-      { name: 'VS Code', logo: vscodelogo },
+      { name: "Git", logo: gitlogo },
+      { name: "GitHub", logo: githublogo },
+      { name: "VS Code", logo: vscodelogo },
     ],
   },
 ];
 
 export const Experiences = [
   {
-    id:0,
-    img:companylogo,
-    role:"Web development intern",
-    company:"Tech solutions",
-    date:"June 2022 - August 2022",
-    desc:"worked as a web development intern, contributing to front-end and back-end tasks for client projects",
-    skills:[
+    id: 0,
+    img: companylogo,
+    role: "Web development intern",
+    company: "Tech solutions",
+    date: "June 2022 - August 2022",
+    desc: "worked as a web development intern, contributing to front-end and back-end tasks for client projects",
+    skills: [
       "HTML",
       "CSS",
       "Tailwind",
@@ -89,77 +89,75 @@ export const Experiences = [
     ],
   },
   {
-    id:1,
-    img:companylogo1,
-    role:"Junior software developer",
-    company:"Innovatech Labs",
-    date:"September 2022 - December 2022",
-    desc:"Contributed to software development projects, assisting in coding, testing, and debugging applications",
-    skills:[
-      "Java",
-      "Python",
-      "C++",
-      "Git",
-      "GitHub",
-    ],
-  }
-];
-export const Education = [
-  {
-    id:0,
-    img:schoollogo,
-    school:"Hariyali Resham Secondary Boarding School",
-    date:"2006-2022",
-    grade:"3.2 GPA",
-    desc:"Completed my Schooling level education with a focus on science subjects",
-    degree:"Schooling Level",
-  },
-  {
-    id:1,
-    img:sukunalogo,
-    school:"Sukuna Multiple Campus",
-    date:"2020-2022",
-    grads:"2.75 GPA",
-    desc:"Pursued my Higher Secondary Education (10+2) in Science Stream, specializing in Physics, Chemistry, and Mathematics",
-    degree:"Higher Secondary Education (10+2)",
-  },
-  {
-    id:2,
-    img:shreeyantralogo,
-    school:"ShreeYantra Computer Engineering College",
-    date:"2022-Present",
-    grade:"75%(ongoing)",
-    desc:"Currently pursuing a Bachelor's degree in Computer Engineering, focusing on software development, algorithms, and computer systems",
-    degree:"Bachelor of Science in Computer Science and Information Technology(BSC.csit)",
+    id: 1,
+    img: companylogo1,
+    role: "Junior software developer",
+    company: "Innovatech Labs",
+    date: "September 2022 - December 2022",
+    desc: "Contributed to software development projects, assisting in coding, testing, and debugging applications",
+    skills: ["Java", "Python", "C++", "Git", "GitHub"],
   },
 ];
 
 export const Project = [
   {
-    id:0,
-    img:portfolioimg,
-    title:"Portfolio Website",
-    description:"A personal portfolio website showcasing my skills, projects, and experience, built with React and styled-components for a modern look.",
-    tags:["React","CSS","JavaScript","Tailwind"],
-    github:"https://github.com/puzanXtha/NewProjectPortfolio",
+    id: 0,
+    img: portfolioimg,
+    title: "Portfolio Website",
+    description:
+      "A personal portfolio website showcasing my skills, projects, and experience, built with React and styled-components for a modern look.",
+    tags: ["React", "CSS", "JavaScript", "Tailwind"],
+    github: "https://github.com/puzanXtha/NewProjectPortfolio",
   },
 
   {
-    id:1,
-    img:darazimg,
-    title:"Cloning Daraz website",
-    description:"A comprehensive e-commerce platform clone featuring user authentication, product browsing, shopping cart, and secure checkout functionalities.",
-    tags:["Html","css","JavaScript","Bootstrap"],
-    github:"https://github.com/puzanXtha/cloning-daraz-website",
+    id: 1,
+    img: darazimg,
+    title: "Cloning Daraz website",
+    description:
+      "A comprehensive e-commerce platform clone featuring user authentication, product browsing, shopping cart, and secure checkout functionalities.",
+    tags: ["Html", "css", "JavaScript", "Bootstrap"],
+    github: "https://github.com/puzanXtha/cloning-daraz-website",
   },
-  
+
   {
-    id:2,
-    img:ecommerceimg,
-    title:"Ecommerce Website",
-    description:"A simple ecommerce website with product listings, shopping cart, and checkout functionality.",
-    tags:["Html","css","JavaScript"],
-    github:"https://github.com/puzanXtha/ecommerce-website",
+    id: 2,
+    img: ecommerceimg,
+    title: "Ecommerce Website",
+    description:
+      "A simple ecommerce website with product listings, shopping cart, and checkout functionality.",
+    tags: ["Html", "css", "JavaScript"],
+    github: "https://github.com/puzanXtha/ecommerce-website",
   },
 ];
 
+export const EducationInfo = [
+  {
+    id: 0,
+    img: schoollogo,
+    school: "Hariyali Resham Secondary Boarding School",
+    date: "2006-2022",
+    grade: "3.2 GPA",
+    desc: "Completed my Schooling level education with a focus on science subjects",
+    degree: "Schooling Level",
+  },
+  {
+    id: 1,
+    img: sukunalogo,
+    school: "Sukuna Multiple Campus",
+    date: "2020-2022",
+    grads: "2.75 GPA",
+    desc: "Pursued my Higher Secondary Education (10+2) in Science Stream, specializing in Physics, Chemistry, and Mathematics",
+    degree: "Higher Secondary Education (10+2)",
+  },
+  {
+    id: 2,
+    img: shreeyantralogo,
+    school: "ShreeYantra Computer Engineering College",
+    date: "2022-Present",
+    grade: "75%(ongoing)",
+    desc: "Currently pursuing a Bachelor's degree in Computer Engineering, focusing on software development, algorithms, and computer systems",
+    degree:
+      "Bachelor of Science in Computer Science and Information Technology(BSC.csit)",
+  },
+];

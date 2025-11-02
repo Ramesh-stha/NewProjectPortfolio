@@ -9,7 +9,7 @@ const menuItems = [
   { id: "skills", label: "Skill" },
   { id: "experience", label: "Experience" },
   {id:"work", label:"Work"},
-  { id: "Education", label: "Education" },
+  { id: "education", label: "Education" },
 ];
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
