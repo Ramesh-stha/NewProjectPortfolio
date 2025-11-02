@@ -1,10 +1,12 @@
-import About from "./components/About/About";
+
 import Navbar from "./components/navbar/Navbar";
+import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
-import Footer from "./components/footer/Footer";
 import Experience from "./components/experience/Experience";
+import Project from "./components/project/Project";
 import Education from "./components/education/Education";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 import BlurBlob from "./BlurBlob";
 import React from "react";
 
@@ -25,6 +27,7 @@ const App = () => {
         <About />
         <Skills />
         <Experience />
+        <Project/>
         <Education />
         <Contact />
         <Footer />

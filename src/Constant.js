@@ -23,7 +23,9 @@ import companylogo1 from "./assets/TechLogo/innovatech.png";
 import schoollogo from "./assets/TechLogo/hariyali.png";
 import sukunalogo from "./assets/TechLogo/sukuna.png";
 import shreeyantralogo from "./assets/TechLogo/shreeyantra.png";
-
+import portfolioimg from "./assets/TechLogo/portfolioproject.png";
+import darazimg from "./assets/TechLogo/darazclone.png";
+import ecommerceimg from "./assets/TechLogo/ecommerce.jpg";
 export const skillInfo = [
   {
     title: "Frontend",
@@ -71,7 +73,7 @@ export const Experiences = [
   {
     id:0,
     img:companylogo,
-    role:"web development intern",
+    role:"Web development intern",
     company:"Tech solutions",
     date:"June 2022 - August 2022",
     desc:"worked as a web development intern, contributing to front-end and back-end tasks for client projects",
@@ -89,7 +91,7 @@ export const Experiences = [
   {
     id:1,
     img:companylogo1,
-    role:"junior software developer",
+    role:"Junior software developer",
     company:"Innovatech Labs",
     date:"September 2022 - December 2022",
     desc:"Contributed to software development projects, assisting in coding, testing, and debugging applications",
@@ -129,6 +131,35 @@ export const Education = [
     grade:"75%(ongoing)",
     desc:"Currently pursuing a Bachelor's degree in Computer Engineering, focusing on software development, algorithms, and computer systems",
     degree:"Bachelor of Science in Computer Science and Information Technology(BSC.csit)",
+  },
+];
+
+export const Project = [
+  {
+    id:0,
+    img:portfolioimg,
+    title:"Portfolio Website",
+    description:"A personal portfolio website showcasing my skills, projects, and experience, built with React and styled-components for a modern look.",
+    tags:["React","CSS","JavaScript","Tailwind"],
+    github:"https://github.com/puzanXtha/NewProjectPortfolio",
+  },
+
+  {
+    id:1,
+    img:darazimg,
+    title:"Cloning Daraz website",
+    description:"A comprehensive e-commerce platform clone featuring user authentication, product browsing, shopping cart, and secure checkout functionalities.",
+    tags:["Html","css","JavaScript","Bootstrap"],
+    github:"https://github.com/puzanXtha/cloning-daraz-website",
+  },
+  
+  {
+    id:2,
+    img:ecommerceimg,
+    title:"Ecommerce Website",
+    description:"A simple ecommerce website with product listings, shopping cart, and checkout functionality.",
+    tags:["Html","css","JavaScript"],
+    github:"https://github.com/puzanXtha/ecommerce-website",
   },
 ];
 
