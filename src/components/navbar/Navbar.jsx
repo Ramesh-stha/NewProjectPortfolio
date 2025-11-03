@@ -86,7 +86,7 @@ const Navbar = () => {
             <FaGithub size={20} />
           </a>
           <a
-            href="https://www.linkedin.com/in/puzan-shrestha-5b4b6b1b5/"
+            href="https://www.linkedin.com/in/puzan-shrestha-618282348/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec] transition-colors duration-300"
