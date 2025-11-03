@@ -158,6 +158,6 @@ export const EducationInfo = [
     grade: "75%(ongoing)",
     desc: "Currently pursuing a Bachelor's degree in Computer Engineering, focusing on software development, algorithms, and computer systems",
     degree:
-      "Bachelor of Science in Computer Science and Information Technology(BSC.csit)",
+      "Bachelor (BSC.csit)",
   },
 ];
