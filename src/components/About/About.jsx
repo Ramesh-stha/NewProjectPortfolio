@@ -49,10 +49,9 @@ const About = () => {
             foundation in web development, I am dedicated to continuous learning
             and staying updated with the latest industry trends.
           </p>
-
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-globalnav-goto"
+            href="https://drive.google.com/drive/folders/1nO5svo5563qQfe-mGsdJjgT8nSEiwLS7?dmr=1&ec=wgc-drive-hero-goto"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
