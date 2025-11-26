@@ -28,7 +28,6 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 " MERN Developer",
-                " UI/UX Designer",
                 " Coder",
                 "Tech Enthusiast",
               ]}

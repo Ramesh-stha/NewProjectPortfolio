@@ -26,6 +26,8 @@ import shreeyantralogo from "./assets/TechLogo/shreeyantra.png";
 import portfolioimg from "./assets/TechLogo/portfolioproject.png";
 import darazimg from "./assets/TechLogo/darazclone.png";
 import ecommerceimg from "./assets/TechLogo/ecommerce.jpg";
+import crudappimg from "./assets/TechLogo/crud app ss.png";
+import todolistimg from "./assets/TechLogo/Todolistss.png";
 export const skillInfo = [
   {
     title: "Frontend",
@@ -129,6 +131,23 @@ export const Project = [
     tags: ["Html", "css", "JavaScript"],
     github: "https://github.com/puzanXtha/ecommerce-website",
   },
+
+  {
+    id:3,
+    img:todolistimg,
+    title:"To-do list",
+    description:"A simple to do application that can store the task locally and with attractive UserInterface.",
+    tags:["React","Tailwindcss","JavaScript"],
+    github:"https://github.com/puzanXtha/ReactProject-Simple_To-Do_List",
+  },
+  {
+    id:4,
+    img:crudappimg,
+    title:"Crud Application using React",
+    description:"Crud appliction that is fully functionable with real api with seamless UI.",
+    tags:["React","Tailwindcss","JavaScript","Placeholder Api"],
+    github:"https://github.com/puzanXtha/Crud",
+  }
 ];
 
 export const EducationInfo = [
