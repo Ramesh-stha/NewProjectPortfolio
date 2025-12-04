@@ -27,7 +27,7 @@ import portfolioimg from "./assets/TechLogo/portfolioproject.png";
 import darazimg from "./assets/TechLogo/darazclone.png";
 import ecommerceimg from "./assets/TechLogo/ecommerce.jpg";
 import crudappimg from "./assets/TechLogo/crud app ss.png";
-import todolistimg from "./assets/TechLogo/Todolistss.png";
+import todolistimg from "./assets/TechLogo/todolist.png"
 import quizimg from "./assets/TechLogo/Quiz.png";
 export const skillInfo = [
   {
