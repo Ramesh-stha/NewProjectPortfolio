@@ -28,6 +28,7 @@ import darazimg from "./assets/TechLogo/darazclone.png";
 import ecommerceimg from "./assets/TechLogo/ecommerce.jpg";
 import crudappimg from "./assets/TechLogo/crud app ss.png";
 import todolistimg from "./assets/TechLogo/Todolistss.png";
+import quizimg from "./assets/TechLogo/Quiz.png";
 export const skillInfo = [
   {
     title: "Frontend",
@@ -114,6 +115,33 @@ export const Project = [
 
   {
     id: 1,
+    img: todolistimg,
+    title: "To-do list",
+    description:
+      "A simple to do application that can store the task locally and with attractive UserInterface.",
+    tags: ["React", "Tailwindcss", "JavaScript"],
+    github: "https://github.com/puzanXtha/ReactProject-Simple_To-Do_List",
+  },
+  {
+    id: 2,
+    img: crudappimg,
+    title: "Crud Application using React",
+    description:
+      "Crud appliction that is fully functionable with real api with seamless UI.",
+    tags: ["React", "Tailwindcss", "JavaScript", "Placeholder Api"],
+    github: "https://github.com/puzanXtha/Crud",
+  },
+  {
+    id: 3,
+    img: quizimg,
+    title: "Quiz Application",
+    description:
+      "Quiz application using ,React-router-dom to make it multipage application.",
+    tags: ["React", "Tailwindcss"],
+    github: "https://github.com/puzanXtha/Quiz_Application",
+  },
+  {
+    id: 4,
     img: darazimg,
     title: "Cloning Daraz website",
     description:
@@ -123,7 +151,7 @@ export const Project = [
   },
 
   {
-    id: 2,
+    id: 5,
     img: ecommerceimg,
     title: "Ecommerce Website",
     description:
@@ -131,23 +159,6 @@ export const Project = [
     tags: ["Html", "css", "JavaScript"],
     github: "https://github.com/puzanXtha/ecommerce-website",
   },
-
-  {
-    id:3,
-    img:todolistimg,
-    title:"To-do list",
-    description:"A simple to do application that can store the task locally and with attractive UserInterface.",
-    tags:["React","Tailwindcss","JavaScript"],
-    github:"https://github.com/puzanXtha/ReactProject-Simple_To-Do_List",
-  },
-  {
-    id:4,
-    img:crudappimg,
-    title:"Crud Application using React",
-    description:"Crud appliction that is fully functionable with real api with seamless UI.",
-    tags:["React","Tailwindcss","JavaScript","Placeholder Api"],
-    github:"https://github.com/puzanXtha/Crud",
-  }
 ];
 
 export const EducationInfo = [
@@ -176,7 +187,6 @@ export const EducationInfo = [
     date: "2022-Present",
     grade: "75%(ongoing)",
     desc: "Currently pursuing a Bachelor's degree in Computer Engineering, focusing on software development, algorithms, and computer systems",
-    degree:
-      "Bachelor (BSC.csit)",
+    degree: "Bachelor (BSC.csit)",
   },
 ];
