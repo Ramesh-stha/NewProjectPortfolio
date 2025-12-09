@@ -19,7 +19,7 @@ const About = () => {
 
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Puzan Shrestha
+            Ramesh Shrestha
           </h2>
 
           {/*skill heading with typing animaion*/}
