@@ -40,7 +40,7 @@ const Footer = () => {
           {[
             { icon: <FaFacebook />, link: "https://www.facebook.com/pujan.shrestha.96558" },
             { icon: <FaTwitter />, link: "" },
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/puzan-shrestha-618282348/" },
+            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/ramesh-shrestha-74b523399/" },
             { icon: <FaInstagram />, link: "" },
             { icon: <FaYoutube />, link: "" },
             
