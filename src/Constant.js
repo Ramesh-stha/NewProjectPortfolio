@@ -18,8 +18,8 @@ import javascriptlogo from "./assets/TechLogo/javascript.png";
 import gitlogo from "./assets/TechLogo/git.png";
 import githublogo from "./assets/TechLogo/github.png";
 import vscodelogo from "./assets/TechLogo/vscode.png";
-import companylogo from "./assets/TechLogo/company.jpeg";
-import companylogo1 from "./assets/TechLogo/innovatech.png";
+import companylogo from "./assets/TechLogo/shreeyantra.png";
+import companylogo1 from "./assets/TechLogo/shreeyantra.png";
 import schoollogo from "./assets/TechLogo/hariyali.png";
 import sukunalogo from "./assets/TechLogo/sukuna.png";
 import shreeyantralogo from "./assets/TechLogo/shreeyantra.png";
@@ -76,31 +76,41 @@ export const Experiences = [
   {
     id: 0,
     img: companylogo,
-    role: "Web development intern",
-    company: "Tech solutions",
-    date: "June 2022 - August 2022",
-    desc: "worked as a web development intern, contributing to front-end and back-end tasks for client projects",
+    role: "Frontend Developer Intern",
+    company: "Shreeyantra College (Academic Internship)",
+    date: "Mar 2023 - Present",
+    desc: "Currently working as a frontend intern focusing on building responsive UI components, integrating REST APIs, and contributing to academic projects like TallyWise and BookPasal using React and Tailwind CSS.",
     skills: [
-      "HTML",
-      "CSS",
-      "Tailwind",
+      "React.js",
       "JavaScript",
-      "React",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Bootstrap",
+      "REST API",
+      "Git",
+      "GitHub"
     ],
   },
   {
     id: 1,
     img: companylogo1,
-    role: "Junior software developer",
-    company: "Innovatech Labs",
-    date: "September 2022 - December 2022",
-    desc: "Contributed to software development projects, assisting in coding, testing, and debugging applications",
-    skills: ["Java", "Python", "C++", "Git", "GitHub"],
+    role: "Frontend Developer – Academic & Personal Projects",
+    company: "Self / Academic Work",
+    date: "Mar 2023 - Present",
+    desc: "Developed several academic and personal projects including CRUD App, Weather App, TallyWise, and BookPasal. Worked on reusable components, UI/UX improvements, and API integrations while following modern frontend best practices.",
+    skills: [
+      "React.js",
+      "JavaScript (ES6+)",
+      "Axios",
+      "Vite",
+      "React Router",
+      "State Management",
+      "Responsive Design"
+    ],
   },
 ];
+
 
 export const Project = [
   {
