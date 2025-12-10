@@ -27,7 +27,7 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                " MERN Developer",
+                "Frontend Dev",
                 " Coder",
                 "Tech Enthusiast",
               ]}
@@ -73,7 +73,7 @@ const About = () => {
             perspective={1000}
             scale={1.05}
             transitionSpeed={1000}
-            gyroscope={true}
+            gyroscope={false}
           >
             <img
               src={profileImage}
