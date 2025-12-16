@@ -1,14 +1,16 @@
 import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState,useEffect,useContext } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import darkIcon from "../../assets/TechLogo/darkTheme.png";
+import lightIcon from "../../assets/TechLogo/lightTheme.png";
+import { AppContext } from "../../context/ThemeContext";
 
 const menuItems = [
   { id: "about", label: "About" },
   { id: "skills", label: "Skill" },
   { id: "experience", label: "Experience" },
-  {id:"work", label:"Work"},
+  { id: "work", label: "Work" },
   { id: "education", label: "Education" },
 ];
 const Navbar = () => {
@@ -16,6 +18,8 @@ const Navbar = () => {
   const [activeSelection, setActiveSelection] = useState("");
   const [isScrolled, setIsScrolled] = useState(false);
 
+  //using context
+  const {theme,toggleTheme} = useContext(AppContext);
   // Scroll event listener to update isScrolled state
   useEffect(() => {
     const handlescroll = () => {
@@ -33,8 +37,8 @@ const Navbar = () => {
     setIsOpen(false);
 
     const section = document.getElementById(sectionId);
-    if(section){
-      section.scrollIntoView({behavior:"smooth"});
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -93,6 +97,17 @@ const Navbar = () => {
           >
             <FaLinkedin size={20} />
           </a>
+          {/*Theme icon*/}
+          <button
+            onClick={toggleTheme}
+            className="bg-gray-300 p-1 hover:bg-[#8245ec] transition-colors duration-300 overflow-hidden cursor-pointer rounded-full w-[23px] h-[23px]"
+          >
+            {theme === "light" ? (
+              <img src={darkIcon} alt="dark icon" />
+            ) : (
+              <img src={lightIcon} alt="dark icon" />
+            )}
+          </button>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -145,6 +160,17 @@ const Navbar = () => {
                 >
                   <FaLinkedin size={20} />
                 </a>
+                {/*Theme icon*/}
+                <button
+                  onClick={toggleTheme}
+                  className="bg-white p-1 hover:bg-[#8245ec] transition-colors duration-300 overflow-hidden cursor-pointer rounded-full w-[23px] h-[23px]"
+                >
+                  {theme === "light" ? (
+                    <img src={darkIcon} alt="dark icon" />
+                  ) : (
+                    <img src={lightIcon} alt="dark icon" />
+                  )}
+                </button>
               </div>
             </ul>
           </div>
