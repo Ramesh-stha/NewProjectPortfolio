@@ -27,8 +27,9 @@ import portfolioimg from "./assets/TechLogo/portfolioproject.png";
 import darazimg from "./assets/TechLogo/darazclone.png";
 import ecommerceimg from "./assets/TechLogo/ecommerce.jpg";
 import crudappimg from "./assets/TechLogo/crud app ss.png";
-import todolistimg from "./assets/TechLogo/todolist.png"
+import todolistimg from "./assets/TechLogo/todolist.png";
 import quizimg from "./assets/TechLogo/Quiz.png";
+import WeatherAppimg from "./assets/TechLogo/WeatherApp.png";
 export const skillInfo = [
   {
     title: "Frontend",
@@ -89,7 +90,7 @@ export const Experiences = [
       "Bootstrap",
       "REST API",
       "Git",
-      "GitHub"
+      "GitHub",
     ],
   },
   {
@@ -106,11 +107,10 @@ export const Experiences = [
       "Vite",
       "React Router",
       "State Management",
-      "Responsive Design"
+      "Responsive Design",
     ],
   },
 ];
-
 
 export const Project = [
   {
@@ -120,55 +120,65 @@ export const Project = [
     description:
       "A personal portfolio website showcasing my skills, projects, and experience, built with React and styled-components for a modern look.",
     tags: ["React", "CSS", "JavaScript", "Tailwind"],
-    github: "https://github.com/puzanXtha/NewProjectPortfolio",
+    github: "https://github.com/Ramesh-stha/NewProjectPortfolio",
   },
-
   {
     id: 1,
-    img: todolistimg,
-    title: "To-do list",
-    description:
-      "A simple to do application that can store the task locally and with attractive UserInterface.",
-    tags: ["React", "Tailwindcss", "JavaScript"],
-    github: "https://github.com/puzanXtha/ReactProject-Simple_To-Do_List",
-  },
-  {
-    id: 2,
-    img: crudappimg,
-    title: "Crud Application using React",
-    description:
-      "Crud appliction that is fully functionable with real api with seamless UI.",
-    tags: ["React", "Tailwindcss", "JavaScript", "Placeholder Api"],
-    github: "https://github.com/puzanXtha/Crud",
-  },
-  {
-    id: 3,
     img: quizimg,
     title: "Quiz Application",
     description:
       "Quiz application using ,React-router-dom to make it multipage application.",
     tags: ["React", "Tailwindcss"],
-    github: "https://github.com/puzanXtha/Quiz_Application",
+    github: "https://github.com/Ramesh-stha/Quiz_Application",
+  },
+  {
+    id: 2,
+    img: WeatherAppimg,
+    title: "Weather App",
+    description:
+      "A responsive Weather App built with React and Context API, fetching real-time weather data from OpenWeatherMap API.",
+    tags: ["React", "Tailwindcss", "JavaScript"],
+    github: "https://github.com/Ramesh-stha/Weather_App",
+  },
+
+  {
+    id: 3,
+    img: todolistimg,
+    title: "To-do list",
+    description:
+      "A simple to do application that can store the task locally and with attractive UserInterface.",
+    tags: ["React", "Tailwindcss", "JavaScript"],
+    github: "https://github.com/Ramesh-stha/ReactProject-Simple_To-Do_List",
   },
   {
     id: 4,
+    img: crudappimg,
+    title: "Crud Application using React",
+    description:
+      "Crud appliction that is fully functionable with real api with seamless UI.",
+    tags: ["React", "Tailwindcss", "JavaScript", "Placeholder Api"],
+    github: "https://github.com/Ramesh-stha/Crud",
+  },
+
+  {
+    id: 5,
     img: darazimg,
     title: "Cloning Daraz website",
     description:
       "A comprehensive e-commerce platform clone featuring user authentication, product browsing, shopping cart, and secure checkout functionalities.",
     tags: ["Html", "css", "JavaScript", "Bootstrap"],
-    github: "https://github.com/puzanXtha/cloning-daraz-website",
+    github: "https://github.com/Ramesh-stha/cloning-daraz-website",
   },
 
-  {
-    id: 5,
-    img: ecommerceimg,
-    title: "Ecommerce Website",
-    description:
-      "A simple ecommerce website with product listings, shopping cart, and checkout functionality.",
-    tags: ["Html", "css", "JavaScript"],
-    github: "https://github.com/puzanXtha/ecommerce-website",
-  },
+  // {
+  //   id: 6,
+  //   img: ecommerceimg,
+  //   title: "Ecommerce Website",
+  //   description:
+  //     "A simple ecommerce website with product listings, shopping cart, and checkout functionality.",
+  //   tags: ["Html", "css", "JavaScript"],
+  //   github: "https://github.com/Ramesh-stha/ecommerce-website",
+  // },
 ];
 
 export const EducationInfo = [
