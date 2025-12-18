@@ -108,6 +108,14 @@ const Work = () => {
                 >
                   View Code
                 </a>
+                <a
+                  href={selectedProject.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-800 hover:bg-purple-800 text-gray-300 px-4 py-2 rounded-xl text-sm font-semibold text-center"
+                >
+                  Go Live
+                </a>
               </div>
             </div>
           </div>

@@ -121,15 +121,17 @@ export const Project = [
       "A personal portfolio website showcasing my skills, projects, and experience, built with React and styled-components for a modern look.",
     tags: ["React", "CSS", "JavaScript", "Tailwind"],
     github: "https://github.com/Ramesh-stha/NewProjectPortfolio",
+    live:"https://new-project-portfolio-three.vercel.app/",
   },
   {
     id: 1,
     img: quizimg,
     title: "Quiz Application",
     description:
-      "Quiz application using ,React-router-dom to make it multipage application.",
+      "An interactive Quiz Application built with React and integrated with the Open Trivia DB API to fetch real-time quiz questions and answers. The app provides smooth navigation, instant feedback, and dynamic content without hardcoded data.",
     tags: ["React", "Tailwindcss"],
     github: "https://github.com/Ramesh-stha/Quiz_Application",
+    live:"https://quiz-application-xi-eight.vercel.app/",
   },
   {
     id: 2,
@@ -139,6 +141,7 @@ export const Project = [
       "A responsive Weather App built with React and Context API, fetching real-time weather data from OpenWeatherMap API.",
     tags: ["React", "Tailwindcss", "JavaScript"],
     github: "https://github.com/Ramesh-stha/Weather_App",
+    live:"https://weather-app-steel-five-12.vercel.app/",
   },
 
   {
@@ -149,6 +152,7 @@ export const Project = [
       "A simple to do application that can store the task locally and with attractive UserInterface.",
     tags: ["React", "Tailwindcss", "JavaScript"],
     github: "https://github.com/Ramesh-stha/ReactProject-Simple_To-Do_List",
+    live:"https://react-project-simple-to-do-list.vercel.app/",
   },
   {
     id: 4,
@@ -158,6 +162,7 @@ export const Project = [
       "Crud appliction that is fully functionable with real api with seamless UI.",
     tags: ["React", "Tailwindcss", "JavaScript", "Placeholder Api"],
     github: "https://github.com/Ramesh-stha/Crud",
+    live:"https://crud-weld-eight.vercel.app/",
   },
 
   {
@@ -168,6 +173,7 @@ export const Project = [
       "A comprehensive e-commerce platform clone featuring user authentication, product browsing, shopping cart, and secure checkout functionalities.",
     tags: ["Html", "css", "JavaScript", "Bootstrap"],
     github: "https://github.com/Ramesh-stha/cloning-daraz-website",
+    live:"",
   },
 
   // {
