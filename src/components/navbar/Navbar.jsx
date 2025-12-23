@@ -1,5 +1,5 @@
 import React from "react";
-import { useState,useEffect,useContext } from "react";
+import { useState, useEffect, useContext } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import darkIcon from "../../assets/TechLogo/darkTheme.png";
@@ -19,7 +19,7 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   //using context
-  const {theme,toggleTheme} = useContext(AppContext);
+  const { theme, toggleTheme } = useContext(AppContext);
   // Scroll event listener to update isScrolled state
   useEffect(() => {
     const handlescroll = () => {
@@ -30,6 +30,20 @@ const Navbar = () => {
       window.removeEventListener("scroll", handlescroll);
     };
   }, []);
+  // closing dropdown when scrolling start
+  useEffect(() => {
+    const handleCloseOnScroll = () => {
+      if (isOpen && window.innerWidth < 768) {
+        setIsOpen(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleCloseOnScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleCloseOnScroll);
+    };
+  }, [isOpen]);
 
   // Function to handle the selection of a menu item
   const handleItemClick = (sectionId) => {
